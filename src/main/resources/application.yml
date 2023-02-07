@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: 62442
+    url: jdbc:postgresql://localhost:5432/db-democratic-lunch?createDatabaseIfNotExist=true
+    username: postgres
+  jpa:
+    hibernate:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: false
+    show-sql: true
