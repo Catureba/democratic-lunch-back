@@ -12,6 +12,6 @@ public record RegisterUserData(
         @Email
         String email,
         @NotBlank
-        @Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$")
+        @Pattern(regexp = "^.{8,12}$")
         String password) {
 }
