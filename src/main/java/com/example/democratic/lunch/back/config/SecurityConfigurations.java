@@ -1,4 +1,4 @@
-package com.example.democratic.lunch.back.infra;
+package com.example.democratic.lunch.back.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

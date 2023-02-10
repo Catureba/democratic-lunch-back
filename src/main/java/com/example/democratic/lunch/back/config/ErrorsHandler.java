@@ -1,4 +1,4 @@
-package com.example.democratic.lunch.back.infra;
+package com.example.democratic.lunch.back.config;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
