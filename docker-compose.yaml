@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 62442
-      POSTGRES_DB: db-democratic-lunch
+      POSTGRES_DB: db_democratic_lunch
     ports:
       - "5432:5432"
     volumes:
