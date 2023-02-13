@@ -32,6 +32,14 @@ public class Restaurant {
     @Column(nullable = false)
     private int votes;
 
+    public int getVotes() {
+        return votes;
+    }
+
+    public void setVotes(int votes) {
+        this.votes = votes;
+    }
+
     public Long getId() {
         return id;
     }
