@@ -24,6 +24,11 @@ public class RestaurantController {
         return restaurantServiceImpl.save(restaurant);
     }
 
+    @PutMapping("/put")
+    public Restaurant putRestaurant(@RequestBody Restaurant restaurant){
+        return restaurantServiceImpl.save(restaurant);
+    }
+
     //Definindo o GetMappgin
     @GetMapping("/list")
     public List<Restaurant> listAllRestaurant(){
